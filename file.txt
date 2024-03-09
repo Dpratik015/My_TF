@@ -1,0 +1,16 @@
+hiii
+ sudo apt update
+sudo apt install wget
+wget https://releases.hashicorp.com/terraform/0.15.5/terraform_0.15.5_linux_amd64.zip
+sudo apt install unzip
+unzip terraform_0.15.5_linux_amd64.zip
+sudo mv terraform /usr/local/bin
+terraform version
+
+
+
+
+
+
+sudo snap install terraform --classic
+This is the cmd to install terraform earliest version
