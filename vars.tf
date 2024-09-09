@@ -1,4 +1,4 @@
-"host_name" = "ABCD123",
+"host_name" = "SCFGHJ1234",
 "image_id" = data.openstack_images_image_v2.ubuntu_image.id,
 "flavor_id" = data.openstack_compute_flavor_v2.8G_32G,
-"secondary_disk_size" = 100
+"secondary_disk_size" = 200
