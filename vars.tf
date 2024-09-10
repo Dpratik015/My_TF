@@ -57,17 +57,7 @@ locals {
    { "host_name" = "CHSRVMSVNBLVUDST04","image_id" = data.openstack_images_image_v2.ubuntu_image.id ,"flavor_id" = data.openstack_compute_flavor_v2.ofl_16c_32g.id, "secondary_disk_size" = 1000 },
     { "host_name" = "CHSRVMSVNBLVUDST05","image_id" = data.openstack_images_image_v2.ubuntu_image.id ,"flavor_id" = data.openstack_compute_flavor_v2.ofl_16c_32g.id, "secondary_disk_size" = 1000 },
     
-  
-
-"host_name" = "DFGCHJBKN345",
-"image_id" = data.openstack_images_image_v2.ubuntu_image.id,
-"flavor_id" = data.openstack_compute_flavor_v2.8G_32G,
-"secondary_disk_size" = 100
-
-"host_name" = "HELLO123",
-"image_id" = data.openstack_images_image_v2.ubuntu_image.id,
-"flavor_id" = data.openstack_compute_flavor_v2.8G_32G,
-"secondary_disk_size" = 90
+  ]
 
 }
 
