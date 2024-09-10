@@ -6,3 +6,7 @@
 "image_id" = data.openstack_images_image_v2.ubuntu_image.id,
 "flavor_id" = data.openstack_compute_flavor_v2.8G_32G,
 "secondary_disk_size" = 123
+"host_name" = "EFGH123",
+"image_id" = data.openstack_images_image_v2.ubuntu_image.id,
+"flavor_id" = data.openstack_compute_flavor_v2.8G_32G,
+"secondary_disk_size" = 1111
