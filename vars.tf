@@ -72,6 +72,8 @@ locals {
 { "host_name" = "DEF123","image_id" = data.openstack_images_image_v2.ubuntu_image.id ,"flavor_id" = data.openstack_compute_flavor_v2.4g_32, "secondary_disk_size" = 50 },
 { "host_name" = "GHI123","image_id" = data.openstack_images_image_v2.ubuntu_image.id ,"flavor_id" = data.openstack_compute_flavor_v2.4g_32, "secondary_disk_size" = 50 },
 
+{ "host_name" = "sdfg","image_id" = data.openstack_images_image_v2.ubuntu_image.id ,"flavor_id" = data.openstack_compute_flavor_v2.sdfgh, "secondary_disk_size" = 456 },
+
 ]
 
 }
